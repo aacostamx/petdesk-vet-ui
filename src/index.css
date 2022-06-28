@@ -1,0 +1,319 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.green {
+  color: #007a53;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-weight: 400;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+}
+
+.white {
+  background-color: #fff;
+}
+.white-text {
+  color: #fff;
+}
+a:hover,
+a:focus {
+  color: #078531;
+  text-decoration: underline;
+  outline: 0;
+}
+
+a.home {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #007a53;
+  color: #fff;
+  display: block;
+}
+.navbar-float-right {
+  float: right;
+}
+
+.content-body {
+  margin: 0 auto;
+  padding: 10px 10px;
+  min-height: 100%;
+  background-color: white;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  background-color: #f2f2f2;
+}
+
+p.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #078531;
+}
+
+.nav-link {
+  display: block;
+  margin: 1px 1px !important;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  color: #555555;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: rgb(250, 250, 250) !important;
+  font-weight: 500 !important;
+}
+
+h1 {
+  font-size: 14pt;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: bold;
+  color: #464646;
+  text-align: right;
+  border-bottom: solid 1px #464646;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.listGroup:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+textarea {
+  resize: none;
+  overflow: scroll;
+  width: 100%;
+  height: 400px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+}
+
+.nav-tabs > li > a {
+  color: #000;
+  font-weight: 400;
+}
+
+.tab-container {
+  border: 1px solid #ddd;
+  border-top: 0;
+  background-color: #f2f2f2;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.tab-container-white {
+  border: 1px solid #ddd;
+  border-top: 0;
+  background-color: #ffffff;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.checkbox-vertical-center {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+ol.breadcrumb {
+  background-color: #cfc493;
+}
+
+ol.breadcrumb > li > a {
+  color: black;
+}
+
+li.breadcrumb-item:before {
+  color: black !important;
+}
+
+.form-header {
+  margin-top: 0px !important;
+  padding-top: 20px;
+  text-align: left;
+  font-style: italic;
+}
+hr.form-header {
+  border-top: 5px solid lightgray;
+}
+.section {
+  color: gray;
+}
+hr.section {
+  border-top: 1px dashed lightgray;
+}
+label {
+  padding: 6px 12px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.form-group.required .col-form-label:before {
+  content: "*";
+  color: red;
+}
+
+label[required]::before {
+  content: "*";
+  color: red;
+}
+.required-asterisk {
+  color: red;
+}
+.btn-spacer {
+  margin-right: 2px;
+}
+
+.modal-header {
+  background-color: #007a54 !important;
+  color: #fff !important;
+}
+
+.option-label {
+  padding: 0px 0px !important;
+}
+
+.notification-danger {
+  background-color: white !important;
+}
+.notification-success {
+  background-color: white !important;
+}
+.notification-default {
+  background-color: white !important;
+}
+.notification-info {
+  background-color: white !important;
+}
+.notification-warning {
+  background-color: white !important;
+}
+.notification-content {
+  min-width: 20em;
+}
+.notification-message {
+  color: black !important;
+  font-size: large !important;
+}
+.btn-back {
+  font-weight: 400;
+  color: #6c757d;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.object-header {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #6c757d;
+  text-align: left;
+  border-bottom: solid 2px lightgray;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.system-message {
+  color: red;
+}
+
+.badge {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1000;
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  background: #fff;
+  border: 2px solid #007a53;
+  color: #666;
+  text-align: center;
+  border-radius: 100px;
+  margin-left: -60px;
+  display: inline-block;
+  min-width: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.badge-image {
+  width: 80px;
+}
+
